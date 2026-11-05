@@ -88,6 +88,30 @@ This enables **deterministic reasoning around LLM behavior**, without claiming d
 - `papers/FROOM_Paradigm.md` – Paradigm paper
 - `papers/FROOM_Whitepaper.md` – Whitepaper
 - `media/FROOM_Film.*` – Explanatory film (link or file)
+- `media/FROOM_Architecture_Experiments_01-03.mp4` – Screencast of the bounded Architecture Evidence program
 
-The paradigm is public. The underlying technology remains proprietary.
+## Project Status
 
+**Architecture Experiment 01:** PASS (bounded architectural-model evidence)
+
+**Architecture Experiment 02:** PASS (bounded architectural-model evidence)
+
+**Architecture Experiment 03:** Track B Prototype
+
+Experiment 03 currently contains:
+
+- frozen draft inputs,
+- deterministic candidate construction,
+- candidate validation,
+- exploratory cockpit views.
+
+Experiment 03 is not independently reviewed, not preregistered, and does not
+have a scientific PASS/FAIL verdict. The Track B implementation is exploratory
+prototype infrastructure and must not be interpreted as independent
+experimental evidence.
+
+Experiments 04–06 are future work and are not presented as completed results.
+
+The screencast presents this bounded Architecture Evidence status. The
+underlying runtime, operator machine, and implementation details remain
+proprietary.
