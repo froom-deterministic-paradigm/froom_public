@@ -1,35 +1,19 @@
-# FROOM E05 Screencast: Identity Changed First
+# FROOM Live — One Identity. Three Runtimes.
 
-[Watch the screencast](./FROOM_E05_Identity_Changed_First.mp4)
+This screencast demonstrates a single illustrative FROOM workspace materialized into three different runtime forms while preserving the same declared identity.
 
-## What it shows
+The demonstration uses:
 
-The screencast presents one illustrative workspace and three different
-curated architectural views: Work First, Knowledge First, and People First.
-Each view is framed around the same illustrative requirement: a member reads a
-document.
+- one illustrative workspace identity
+- one member (`M1`)
+- one document (`D1`)
+- one permission commitment (`P1`)
+- one requirement: **"Member M1 reads Document D1"**
 
-It then shows three live runtime views returning `ALLOW`. The demonstrator
-removes permission P1 from its mutable example identity; the three runtime
-decisions then change to `DENY`. The processes are not restarted for this
-change.
+Three runtime processes are shown:
 
-## How this relates to E05
+- **Work First** (CLI Runtime)
+- **Knowledge First** (Web Runtime)
+- **People First** (Workflow Runtime)
 
-E05 asks whether one fixed identity contract, room contract, and requirement
-contract admit at least two valid, structurally non-equivalent configurations
-that preserve the declared identity invariants and satisfy the requirements.
-
-The screencast is **not an evaluation of that question**:
-
-- The three architecture views are curated illustrations, not configurations
-  independently constructed and evaluated under the E05 contracts.
-- The runtime segment is a demonstrator of a shared example identity changing
-  and runtime decisions responding; it is not the E05 evaluator or an
-  independent implementation review.
-- The `ALLOW`/`DENY` transition is limited to this demonstration and does not
-  establish a general property of FROOM or of deployed systems.
-
-E05 remains **NOT EVALUATED** and **Freeze Candidate = NO**. The video should
-be read as an illustration of the research question, not as evidence that the
-question has been answered.
+Although the runtimes organize and expose the same information differently, each evaluates the same requirement against the same identity state.
