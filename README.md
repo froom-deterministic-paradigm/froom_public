@@ -1,117 +1,38 @@
-# FROOM – Deterministic LLM Paradigm
-### The Deterministic Operator‑World Paradigm for LLM‑Based Systems
+# FROOM
+### Most systems start with execution. FROOM starts with the space that makes execution possible.
 
-FROOM is a **conceptual paradigm**, not a product, framework, or algorithm.  
-It defines the **operator‑world model**: a structurally deterministic way to describe how systems transform state, compose execution paths, and interpret emergent behavior — including systems that incorporate LLMs.
+FROOM is a conceptual architectural paradigm. It asks what defines the space
+in which system structure, governance, emergence, and execution become
+possible.
 
-FROOM provides the **conceptual architecture** for deterministic reasoning about runtime behavior without disclosing any implementation, runtime mechanisms, or proprietary operator spaces.
+FROOM's public narrative is:
 
----
+**Intent → Space → Structure → Governance → Emergence → Materialization → Execution**
 
-## What FROOM Is
+Structure exists before execution. A visible output is a materialization of a
+system, not the architecture itself. FROOM is not presented as an AI product,
+agent framework, runtime, or verification system.
 
-FROOM is a **domain‑independent operator‑world paradigm**.  
-It defines five conceptual primitives:
+This repository describes the paradigm at a conceptual level. It does not
+disclose system-specific architecture or implementation mechanisms.
 
-- **Operator** — named, world‑internal conceptual transformations  
-- **State** — the modeled conditions relevant to system behavior  
-- **Transition** — the relation between before‑state and after‑state  
-- **Path** — ordered compositions of transitions  
-- **Emergence** — interpretable system‑level patterns under explicit conditions  
+## Research status
 
-Together, these primitives form a **coherent ontology** for describing execution, comparison, and emergence across domains.
+| Area | Public status |
+|---|---|
+| Architecture Experiments 01 and 02 | Bounded architectural-model results |
+| Architecture Experiment 03 | Exploratory prototype; no independent scientific result |
+| Architecture Experiments 04–06 | Research-stage; no completed results claimed |
 
-FROOM is fully **implementation‑independent**.  
-It does **not** disclose:
+In particular, E05 is **not evaluated**. No scientific result is claimed for
+it.
 
-- algorithms  
-- runtime internals  
-- operator spaces  
-- sequencing logic  
-- freeze mechanisms  
-- drift detection  
-- project phases  
-- internal architecture  
+## Repository contents
 
-All concrete mechanisms remain proprietary.
-
----
-
-## Why FROOM Exists
-
-Modern systems combine:
-
-- learned behavior  
-- probabilistic inference  
-- distributed services  
-- configuration  
-- external inputs  
-
-But they lack a **unifying operator logic** that explains how these components transform state and produce system‑level behavior.
-
-FROOM provides that missing structure:
-
-- deterministic boundaries  
-- explicit world model  
-- operator semantics  
-- path relations  
-- drift definitions  
-- emergence interpretation  
-
-It makes system behavior **structurally legible**.
-
----
-
-## FROOM and LLM‑Based Systems
-
-LLMs introduce variability through:
-
-- model versions  
-- sampling  
-- prompts  
-- configuration  
-- external dependencies  
-
-FROOM does **not** eliminate uncertainty — it **models** it:
-
-- deterministic operators remain deterministic  
-- probabilistic operators are explicitly marked  
-- inference becomes part of the execution path  
-- orchestration and state transitions become structurally comparable  
-
-This enables **deterministic reasoning around LLM behavior**, without claiming determinism *inside* the model.
-
----
-
-## Repository Contents
-
-- `papers/FROOM_Paradigm.md` – Paradigm paper
+- `papers/FROOM_Paradigm_Paper.md` – Paradigm paper
 - `papers/FROOM_Whitepaper.md` – Whitepaper
-- `media/FROOM_Film.*` – Explanatory film (link or file)
+- `media/Link to the film on X.md` – Explanatory film reference
 - `media/FROOM_Architecture_Experiments_01-03.mp4` – Screencast of the bounded Architecture Evidence program
 
-## Project Status
-
-**Architecture Experiment 01:** PASS (bounded architectural-model evidence)
-
-**Architecture Experiment 02:** PASS (bounded architectural-model evidence)
-
-**Architecture Experiment 03:** Track B Prototype
-
-Experiment 03 currently contains:
-
-- frozen draft inputs,
-- deterministic candidate construction,
-- candidate validation,
-- exploratory cockpit views.
-
-Experiment 03 is not independently reviewed, not preregistered, and does not
-have a scientific PASS/FAIL verdict. The Track B implementation is exploratory
-prototype infrastructure and must not be interpreted as independent
-experimental evidence.
-
-Experiments 04–06 are future work and are not presented as completed results.
-
-The screencast presents this bounded Architecture Evidence status. The
-underlying runtime, operator machine, and implementation details remain
+The paradigm is public. System-specific implementations and mechanisms remain
 proprietary.
